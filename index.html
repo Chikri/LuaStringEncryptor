@@ -16,6 +16,7 @@
             setTimeout(function () {
                 document.body.removeChild(a);
                 window.URL.revokeObjectURL(url);
+                <button id="encrypt">Encrypt</button>
             }, 0);
         }
     }
@@ -35,5 +36,5 @@
     }
 
     document.getElementById('file-input').addEventListener('change', readSingleFile, false);
-    <button id="encrypt">Encrypt</button>
+    
 </script>
